@@ -1,0 +1,27 @@
+常见错误：
+类中成员变量赋值
+double r;
+double pi = 3.1415926;
+double area = pi*r*r;
+当给r输入一个值时，area仍然是随机值，因此引入一个成员函数。
+
+面向对象
+定义一个对象
+封装：将类的属性和方法进行了封装。
+
+命名空间namespace作用---为了区别定义的相同变量或者成员
+namespace veins
+{
+    double pi = 333;
+}
+namespace car
+{
+    double pi = 666;
+}
+
+const关键字用法
+/*指针所指向的内存空间不能被修改*/
+const Teacher* pt;
+/*指针变量本身不能被修改*/
+Teacher* const pt;
+const 分配内存时机，编译器编译期间
